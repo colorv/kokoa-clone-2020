@@ -8,6 +8,10 @@
   padding-top: 40px;
 }
 
+.more-suggestions span {
+  color: var(--gray);
+}
+
 .more-suggestions__title {
   margin-bottom: 30px;
 }
@@ -36,4 +40,12 @@
 
 .more-suggestions__icon-image i {
   color: white;
+}
+
+.icon-row__icon {
+  width: 75px;
+}
+
+.icon-row {
+  color: rgba(0, 0, 0, 0.7);
 }

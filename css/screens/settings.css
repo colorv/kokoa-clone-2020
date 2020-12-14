@@ -1,3 +1,7 @@
+.main-screen .settings-list:first-child {
+  margin-bottom: 20px;
+}
+
 .settings__setting {
   padding: 20px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -6,8 +10,13 @@
   align-items: center;
   justify-content: space-between;
 }
+.settings-list .settings__setting:last-child {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
 
 .settings__setting i {
+  width: 35px;
   margin-right: 20px;
 }
 

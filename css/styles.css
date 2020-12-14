@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 
 /* screens */
 @import "screens/login.css";
@@ -21,10 +22,9 @@
 @import "screens/chat.css";
 
 body {
-  color: #2e363e;
   font-family: "Open Sans", sans-serif;
   padding-top: 120px;
-  height: 1000vh;
+  height: 150vh;
 }
 
 /* fixed-status-header */
@@ -34,6 +34,7 @@ body {
   position: fixed;
   top: 0;
   box-sizing: border-box;
+  z-index: 5;
 }
 .fixed-status-nav__chat-creen {
   background-color: #abc1d1;
