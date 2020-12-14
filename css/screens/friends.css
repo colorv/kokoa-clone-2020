@@ -8,10 +8,19 @@
 }
 
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--gray);
   margin-left: 5px;
 }
 
-.friends-screen {
-  padding: 0px var(--horizontal-space);
+.friends-screen__chnnel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 20px;
+}
+
+.friends-screen__chnnel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
 }
