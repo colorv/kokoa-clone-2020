@@ -24,10 +24,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   padding-top: 120px;
-  height: 150vh;
 }
 
 /* fixed-status-header */
+.index__status-bar,
 .fixed-status-nav {
   background-color: white;
   width: 100%;
@@ -36,6 +36,7 @@ body {
   box-sizing: border-box;
   z-index: 5;
 }
+
 .fixed-status-nav__chat-creen {
   background-color: #abc1d1;
 }
